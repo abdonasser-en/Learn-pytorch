@@ -21,7 +21,7 @@ In machine learning, tensors are defined as multi-dimensional arrays of numbers.
 
 ![Tensors](images/Tensors-rank.png)
 
-*     Scalars: Tensors of rank zero 
-*     Vectors: Tensors of rank one .
-*     Matrices: Tensors of rank two 
-*     N-dimensional matrices: Tensors of rank higher than 2. 
+* **Scalars**: Tensors of rank zero 
+* **Vectors**: Tensors of rank one .
+* **Matrices**: Tensors of rank two 
+* **N-dimensional matrices**: Tensors of rank higher than 2. 
