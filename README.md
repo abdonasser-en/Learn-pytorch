@@ -17,11 +17,11 @@ PyTorch provides a wide range of tools that cater to the machine learning life c
  
 ## Tensors
 
-In machine learning, tensors are defined as multi-dimensional arrays of numbers. Tensors can represent scalars, vectors, matrices, and n-dimensional matrices. They provide a way to represent and store data, enabling fast mathematical operations specifically for neural network. For a more detailed understanding of tensors, please visit this [YouTube video](https://www.youtube.com/watch?v=L35fFDpwIM4) presented by Josh Starmer (double BAM!) .
+In machine learning, tensors are defined as multi-dimensional arrays of numbers. Tensors can represent scalars, vectors, matrices, and n-dimensional matrices. They provide a way to represent and store data, enabling fast mathematical operations specifically for neural network. For a more detailed understanding of tensors, please visit this [YouTube video](https://www.youtube.com/watch?v=L35fFDpwIM4) presented by Josh Starmer (BAM!) .
 
 ![Tensors](images/Tensors-rank.png)
 
-* **Scalars**: Tensors of rank zero. 
-* **Vectors**: Tensors of rank one.
-* **Matrices**: Tensors of rank two.
-* **N-dimensional matrices**: Tensors of rank higher than 2.
+* **Scalars**: Tensors of rank zero 
+* **Vectors**: Tensors of rank one .
+* **Matrices**: Tensors of rank two 
+* **N-dimensional matrices**: Tensors of rank higher than 2. 
