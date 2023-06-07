@@ -14,6 +14,7 @@ PyTorch provides a wide range of tools that cater to the machine learning life c
 
 
 - [Tensors](#tensors)
+- [Reproducibility](#reproducibility)
  
 ## Tensors
 
@@ -25,3 +26,10 @@ In machine learning, tensors are defined as multi-dimensional arrays of numbers.
 * **Vectors**: Tensors of rank one.
 * **Matrices**: Tensors of rank two.
 * **N-dimensional matrices**: Tensors of rank higher than 2. 
+
+## Reproducibility
+
+> "Reproducibility, closely related to replicability and repeatability, is a major principle underpinning the scientific method. For the findings of a study to be reproducible means that results obtained by an experiment or an observational study or in a statistical analysis of a data set should be achieved again with a high degree of reliability when the study is replicated". [wikipedia](https://en.wikipedia.org/wiki/Reproducibility)
+
+In a simpler way, in  deep learnig , we know that our neural network intialize with random numbers to represent data patterns and then apply tensor operations to update and improve numbers. so here we could agree that that randomness is valueable and powerful, but the question is what we have to do if  we wan to do reproduible experiements that we can share with the public or firend ? 
+
