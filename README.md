@@ -29,7 +29,11 @@ In machine learning, tensors are defined as multi-dimensional arrays of numbers.
 
 ## Reproducibility
 
+
 > "Reproducibility, closely related to replicability and repeatability, is a major principle underpinning the scientific method. For the findings of a study to be reproducible means that results obtained by an experiment or an observational study or in a statistical analysis of a data set should be achieved again with a high degree of reliability when the study is replicated". [wikipedia](https://en.wikipedia.org/wiki/Reproducibility)
 
-In a simpler way, in  deep learnig , we know that our neural network intialize with random numbers to represent data patterns and then apply tensor operations to update and improve numbers. so here we could agree that that randomness is valueable and powerful, but the question is what we have to do if  we wan to do reproduible experiements that we can share with the public or firend ? 
+In a simpler way, in deep learning, we know that our neural network is initialized with random numbers to represent data patterns. We then apply tensor operations to update and improve these numbers. Thus, we can agree that randomness is valuable and powerful. However, the question arises: what should we do if we want to conduct reproducible experiments that can be shared with the public or friends? Since we always start with random numbers, the results will not be the same each time. How can we avoid this ? :confused:
 
+The main idea :bulb: here is to reduce the randomness. In other words, we will begin with random numbers, but they will always be the same random numbers whenever we run the code. This concept is known as pseudorandomness. For more detailed information, please refer to [wikipedia](https://en.wikipedia.org/wiki/Pseudorandomness)
+
+In PyTorch, the concept of a random seed is used to address pseudorandomness.
