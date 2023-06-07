@@ -32,11 +32,11 @@ In machine learning, tensors are defined as multi-dimensional arrays of numbers.
 ## Reproducibility
 
 
-> "Reproducibility, closely related to replicability and repeatability, is a major principle underpinning the scientific method. For the findings of a study to be reproducible means that results obtained by an experiment or an observational study or in a statistical analysis of a data set should be achieved again with a high degree of reliability when the study is replicated". [wikipedia](https://en.wikipedia.org/wiki/Reproducibility)
+> :bulb:"Reproducibility, closely related to replicability and repeatability, is a major principle underpinning the scientific method. For the findings of a study to be reproducible means that results obtained by an experiment or an observational study or in a statistical analysis of a data set should be achieved again with a high degree of reliability when the study is replicated". [wikipedia](https://en.wikipedia.org/wiki/Reproducibility)
 
 In a simpler way, in deep learning, we know that our neural network is initialized with random numbers to represent data patterns. We then apply tensor operations to update and improve these numbers. Thus, we can agree that randomness is valuable and powerful. However, the question arises: what should we do if we want to conduct reproducible experiments that can be shared with the public or friends? Since we always start with random numbers, the results will not be the same each time. How can we avoid this ? :confused:
 
-The main idea :bulb: here is to reduce the randomness. In other words, we will begin with random numbers, but they will always be the same random numbers whenever we run the code. This concept is known as pseudorandomness. For more detailed information, please refer to [wikipedia](https://en.wikipedia.org/wiki/Pseudorandomness).
+The main idea :monocle_face: here is to reduce the randomness. In other words, we will begin with random numbers, but they will always be the same random numbers whenever we run the code. This concept is known as pseudorandomness. For more detailed information, please refer to [wikipedia](https://en.wikipedia.org/wiki/Pseudorandomness).
 
 In PyTorch, the concept of a random seed is used to address pseudorandomness.
 
@@ -49,6 +49,8 @@ By default, PyTorch comes with CUDA, if you have NVIDIA GPU, you are lucky.
 
 But wait, what is Cuda ? :astonished:
 
-> CUDA is indeed NVIDIA's programming interface that enables the use of GPUs for numerical computing. By utilizing CUDA, PyTorch can offload computationally intensive operations from the CPU to the GPU, taking advantage of the parallel processing capabilities of the GPU. 
+>:bulb: CUDA is indeed NVIDIA's programming interface that enables the use of GPUs for numerical computing. By utilizing CUDA, PyTorch can offload computationally intensive operations from the CPU to the GPU, taking advantage of the parallel processing capabilities of the GPU. 
 
-To setting up cuda with PyTorch please refer to [NoteBook](codes/pytorch_set_gpu.ipynb)
+:gear: To set up CUDA with PyTorch, please refer to this [NoteBook](codes/pytorch_set_gpu.ipynb).
+
+If you have a GPU other than NVIDIA, such as an AMD GPU, please consult the PyTorch [documentation](https://pytorch.org/get-started/locally/) for instructions on setting up PyTorch :gear:.
