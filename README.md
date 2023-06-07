@@ -15,6 +15,8 @@ PyTorch provides a wide range of tools that cater to the machine learning life c
 
 - [Tensors](#tensors)
 - [Reproducibility](#reproducibility)
+- [Running GPU with Pytorch](#running-gpu-with-pytorch)
+
  
 ## Tensors
 
@@ -34,6 +36,19 @@ In machine learning, tensors are defined as multi-dimensional arrays of numbers.
 
 In a simpler way, in deep learning, we know that our neural network is initialized with random numbers to represent data patterns. We then apply tensor operations to update and improve these numbers. Thus, we can agree that randomness is valuable and powerful. However, the question arises: what should we do if we want to conduct reproducible experiments that can be shared with the public or friends? Since we always start with random numbers, the results will not be the same each time. How can we avoid this ? :confused:
 
-The main idea :bulb: here is to reduce the randomness. In other words, we will begin with random numbers, but they will always be the same random numbers whenever we run the code. This concept is known as pseudorandomness. For more detailed information, please refer to [wikipedia](https://en.wikipedia.org/wiki/Pseudorandomness)
+The main idea :bulb: here is to reduce the randomness. In other words, we will begin with random numbers, but they will always be the same random numbers whenever we run the code. This concept is known as pseudorandomness. For more detailed information, please refer to [wikipedia](https://en.wikipedia.org/wiki/Pseudorandomness).
 
 In PyTorch, the concept of a random seed is used to address pseudorandomness.
+
+
+## Running GPU with Pytorch
+
+In deep learning, algorithms require extensive numerical operations. By default, these operations are performed by the CPU (central processing unit) on our computers, which consumes a significant amount of time and energy.Instead, you should use **GPU** (graphics precessing uit) if you have one on yourr computer,which is faster and more efficient than the CPU for numerical operations.
+
+By default, PyTorch comes with CUDA, if you have NVIDIA GPU, you are lucky. 
+
+But wait, what is Cuda ? :astonished:
+
+> CUDA is indeed NVIDIA's programming interface that enables the use of GPUs for numerical computing. By utilizing CUDA, PyTorch can offload computationally intensive operations from the CPU to the GPU, taking advantage of the parallel processing capabilities of the GPU. 
+
+To setting up cuda with PyTorch please refer to [NoteBook](codes/pytorch_set_gpu.ipynb)
