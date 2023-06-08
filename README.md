@@ -57,4 +57,7 @@ But wait, what is Cuda ? :astonished:
 If you have a GPU other than NVIDIA, such as an AMD GPU, please consult the PyTorch [documentation](https://pytorch.org/get-started/locally/) for instructions on setting up PyTorch :gear:.
 
 
+
 ## Machine Learning Project.
+
+![machine-learnin-project](images/machine_project.png)
