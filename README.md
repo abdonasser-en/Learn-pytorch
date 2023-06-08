@@ -16,6 +16,7 @@ PyTorch provides a wide range of tools that cater to the machine learning life c
 - [Tensors](#tensors)
 - [Reproducibility](#reproducibility)
 - [Running GPU with Pytorch](#running-gpu-with-pytorch)
+- [Machine Learning Project](#machine-learning-project)
 
  
 ## Tensors
@@ -51,6 +52,20 @@ But wait, what is Cuda ? :astonished:
 
 >:bulb: CUDA is indeed NVIDIA's programming interface that enables the use of GPUs for numerical computing. By utilizing CUDA, PyTorch can offload computationally intensive operations from the CPU to the GPU, taking advantage of the parallel processing capabilities of the GPU. 
 
-:gear: To set up CUDA with PyTorch, please refer to this [NoteBook](codes/pytorch_set_gpu.ipynb).
+:gear: To set up CUDA with PyTorch, please refer to this [Notebook](codes/pytorch_set_gpu.ipynb).
 
 If you have a GPU other than NVIDIA, such as an AMD GPU, please consult the PyTorch [documentation](https://pytorch.org/get-started/locally/) for instructions on setting up PyTorch :gear:.
+
+
+
+## Machine Learning Project.
+ 
+
+In this section, we will cover the traditional machine learning project with PyTorch. We will go through each step that we see in the figure below.
+
+The code is available in this [Notebook](codes/pytorch_ml_project.ipynb).
+
+> :bulb: Note: The figure below represents a machine learning project in an academic setting. Therefore, the deployment part is missing. However, don't worry, we will cover it later.
+
+![machine-learnin-project](images/ml-project-b.png)
+
