@@ -16,6 +16,7 @@ PyTorch provides a wide range of tools that cater to the machine learning life c
 - [Tensors](#tensors)
 - [Reproducibility](#reproducibility)
 - [Running GPU with Pytorch](#running-gpu-with-pytorch)
+- [Machine Learning Project](#machine-learning-project)
 
  
 ## Tensors
@@ -54,3 +55,6 @@ But wait, what is Cuda ? :astonished:
 :gear: To set up CUDA with PyTorch, please refer to this [NoteBook](codes/pytorch_set_gpu.ipynb).
 
 If you have a GPU other than NVIDIA, such as an AMD GPU, please consult the PyTorch [documentation](https://pytorch.org/get-started/locally/) for instructions on setting up PyTorch :gear:.
+
+
+## Machine Learning Project.
