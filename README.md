@@ -67,5 +67,5 @@ The code is available in this [Notebook](codes/pytorch_ml_project.ipynb).
 
 > :bulb: Note: The figure below represents a machine learning project in an academic setting. Therefore, the deployment part is missing. However, don't worry, we will cover it later.
 
-![machine-learnin-project](images/machine_project.png)
+![machine-learnin-project](images/ml-project-b.png)
 
