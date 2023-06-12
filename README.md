@@ -44,7 +44,7 @@ In PyTorch, the concept of a random seed is used to address pseudorandomness.
 
 ## Running GPU with Pytorch
 
-In deep learning, algorithms require extensive numerical operations. By default, these operations are performed by the CPU (central processing unit) on our computers, which consumes a significant amount of time and energy.Instead, you should use **GPU** (graphics precessing uit) if you have one on yourr computer,which is faster and more efficient than the CPU for numerical operations.
+In deep learning, algorithms require extensive numerical operations. By default, these operations are performed by the CPU (central processing unit) on our computers, which consumes a significant amount of time and energy.Instead, you should use **GPU** (graphics precessing uit) if you have one on your computer,which is faster and more efficient than the CPU for numerical operations.
 
 By default, PyTorch comes with CUDA, if you have NVIDIA GPU, you are lucky. 
 
