@@ -67,5 +67,10 @@ The code is available in this [Notebook](codes/pytorch_ml_project.ipynb).
 
 > :bulb: Note: The figure below represents a machine learning project in an academic setting. Therefore, the deployment part is missing. However, don't worry, we will cover it later.
 
-![machine-learnin-project](images/ml-project-b.png)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/ml-project-b.png">
+  <img alt="Shows an illustrated sun in light color mode and a moon with stars in dark color mode." src="images/mlproject.png">
+</picture>
+
 
