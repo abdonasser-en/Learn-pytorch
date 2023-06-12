@@ -17,6 +17,9 @@ PyTorch provides a wide range of tools that cater to the machine learning life c
 - [Reproducibility](#reproducibility)
 - [Running GPU with Pytorch](#running-gpu-with-pytorch)
 - [Machine Learning Project](#machine-learning-project)
+- [Transfer Learning](#transfer-learning) ( :soon: coming soon )
+- [Model Deployment](#model-deployment) ( :soon: coming soon )
+
 
  
 ## Tensors
@@ -73,4 +76,13 @@ The code is available in this [Notebook](codes/pytorch_ml_project.ipynb).
   <img alt="Shows an illustrated sun in light color mode and a moon with stars in dark color mode." src="images/mlproject.png">
 </picture>
 
+## Transfer Learning and Model Deployment
 
+
+
+ 
+ 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/coming-soon-b.png">
+  <img alt="Shows an illustrated sun in light color mode and a moon with stars in dark color mode." src="images/coming-soon.png">
+</picture>
